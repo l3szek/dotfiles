@@ -44,13 +44,13 @@ STDIN_FILE_DESCRIPTOR="0"
 [ -t "$STDIN_FILE_DESCRIPTOR" ] && STRAP_INTERACTIVE="1"
 
 # Set by web/app.rb
-# STRAP_GIT_NAME=
-# STRAP_GIT_EMAIL=
-# STRAP_GITHUB_USER=
+STRAP_GIT_NAME="resheku"
+STRAP_GIT_EMAIL="5239900+resheku@users.noreply.github.com"
+STRAP_GITHUB_USER="resheku"
 # STRAP_GITHUB_TOKEN=
 # CUSTOM_HOMEBREW_TAP=
 # CUSTOM_BREW_COMMAND=
-STRAP_ISSUES_URL="https://github.com/mikemcquaid/strap/issues/new"
+STRAP_ISSUES_URL="https://github.com/resheku/dotfiles/issues/new"
 
 # We want to always prompt for sudo password at least once rather than doing
 # root stuff unexpectedly.
