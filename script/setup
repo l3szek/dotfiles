@@ -6,3 +6,5 @@ symlink(){
 }
 
 symlink()
+
+echo "symlinked files..."
