@@ -7,5 +7,5 @@ notifications:
     on_failure: always
     on_success: never
     
-script: bash ./strap.sh
+script: bash ./script/setup
   
