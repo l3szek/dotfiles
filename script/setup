@@ -1,0 +1,8 @@
+#!/bin/bash
+
+symlink(){
+  ln -sf ~/dotfiles/Brewfile ~/Brewfile
+  ls -sf ~/dotfiles/.vimrc ~/.vimrc
+}
+
+symlink()
